@@ -16,6 +16,7 @@ spec:
       containers:
       - name: myapp
         #image:  nginx:1.14.2
-        image: nginx:latest
+        image: bitnami/apache:latest
+        #image: nginx:latest
         ports:
         - containerPort: 80
