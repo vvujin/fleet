@@ -16,7 +16,8 @@ spec:
       containers:
       - name: myapp
         #image:  nginx:1.14.2
-        image: httpd:latest
+        #image: httpd:latest
         #image: nginx:latest
+        image: vujin/primer4:latest
         ports:
         - containerPort: 80
